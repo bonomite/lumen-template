@@ -1,0 +1,39 @@
+@import "../variables";
+@import "../functions";
+@import "../mixins";
+
+.home{
+	
+	.videoHolder{
+		@include fluid-aspect(16 9, video);
+	}
+
+	/*temp webp-bg*/
+	.my-bg{
+	  position: relative;
+	  display: block;
+	  width: 100%;
+	  height: auto;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: 75% 50%;
+	  &:not(.webp-bg){
+	    background-image: url('https://s3.amazonaws.com/mach2-sandbox/girl.png');
+	    @media (max-width: $sm){
+	        background-image: url('https://s3.amazonaws.com/mach2-sandbox/girl_mobile.png');
+	    }
+	    &.webp{
+	      background-image: url('https://s3.amazonaws.com/mach2-sandbox/girl.webp');
+	      @media (max-width: $sm){
+	          background-image: url('https://s3.amazonaws.com/mach2-sandbox/girl_mobile.webp');
+	      }
+	    }
+	  }
+	}
+
+	/*temp picture styles*/
+	picture img{
+	  width: 100%;
+	}
+
+}

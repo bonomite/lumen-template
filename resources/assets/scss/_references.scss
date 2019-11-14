@@ -1,0 +1,54 @@
+.referencesBlock {
+  padding: 20px 0;
+
+  .buttonReference {
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: $light-orange;
+    margin-bottom: 30px;
+    &:hover {
+      color: $navy-blue;
+    }
+    span, i {
+      display: inline-block;
+    }
+    i {
+      vertical-align: top;
+      transition: transform .3s linear 0s;
+      transform: rotate(180deg);
+      &.rotateChevron {
+        transform: rotate(0deg);
+      }
+    }
+  }
+  #references {
+    ol {
+      color: $light-orange;
+      li {
+        color: $light-orange;
+        padding-left: 15px;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 10px 0;
+
+        &:first-of-type {
+          margin-top: 0;
+        }
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+        &:before {
+          font-size: inherit;
+          color: inherit;
+        }
+      }
+    }
+    .card {
+      border: none;
+      padding: 0;
+      background: transparent;
+    }
+  }
+}

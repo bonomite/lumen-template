@@ -1,0 +1,43 @@
+// declaring variables prior to importing Bootstrap allows us to override some Bootstrap configurations when desired
+@import "variables";
+@import "functions";
+@import "mixins";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+// Font Awesome
+/* @import '~@fortawesome/fontawesome-free/scss/fontawesome';
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands'; */
+
+// Slick Slider
+/* $slick-font-path: "~slick-carousel/slick/fonts/" !default;
+$slick-font-family: "slick" !default;
+$slick-loader-path: "~slick-carousel/slick/" !default;
+$slick-arrow-color: black !default;
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss"; */
+
+
+// the rest of the site's configuration here
+
+@import "typography";
+@import "nav";
+@import "isi";
+@import "footer";
+@import "layout";
+@import "buttons";
+@import "lists";
+@import "svg";
+@import "forms";
+@import "modals";
+@import "tel";
+
+// Components
+@import "references";
+
+// pages
+@import "pages/home";

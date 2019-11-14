@@ -1,0 +1,72 @@
+@import "~bootstrap/scss/functions";
+
+// colors here
+$orange: #d04a04;
+$orange-hover: #D75A11;
+$orange2: #FE800E;
+$light-orange: #e96604;
+$navy-blue: #113F71;
+$light-blue: #619CC1;
+$gray: #3a3a3a;
+$medium-gray: #b7b7b7;
+$light-gray: #f1f1f1;
+$dark-gray:#989898;
+$border-gray:#CECDCD;
+$white: #ffffff;
+
+
+
+//Bootstrap vars
+$grid-columns:      12;
+$grid-gutter-width: 30px;
+
+//breakpoint vars
+
+$xs: 374;
+$sm: 575px;
+$md: 767px;
+$lg: 991px;
+$xl: 1199px;
+
+// if you want to override default Bootstrap breakpoints, uncomment this; must start with lowest as 0 and move up
+
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 768px,
+//   md: 1024px,
+//   lg: 1366px,
+//   xl: 1920px
+// );
+
+// $container-max-widths: (
+//   sm: 768px,
+//   md: 1024px,
+//   lg: 1366px,
+//   xl: 1920px
+// );
+
+// $xs : 374px;
+// $sm : 767px;
+// $md : 1023px;
+// $lg : 1365px;
+// $xl : 1919px;
+
+
+
+
+//Fonts
+$primary-font-family: 'Montserrat', sans-serif;
+$secondary-font-family: 'Barlow Condensed', sans-serif;
+
+// override Bootstrap font definitions
+$headings-font-family: $secondary-font-family;
+$headings-color: $navy-blue;
+$link-color: $navy-blue;
+
+// Navbar / Footer
+$navbar-height: 66px;
+$footer-height: 103px;
+$isi-height: 186px;
+
+// max page width
+$max-page-width: 1366px;

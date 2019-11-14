@@ -1,0 +1,18 @@
+@mixin fluid-aspect($ratio: 1 1, $selector: "> :first-child") {
+  $selector: unquote($selector);
+
+  padding-bottom: percentage(nth($ratio, 2) / nth($ratio, 1));
+  position: relative;
+
+  #{$selector} {
+    left: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    // fixes ios border flicker
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+  }
+}
