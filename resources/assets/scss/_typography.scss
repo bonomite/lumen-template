@@ -75,12 +75,12 @@ a,
 a:visited,
 a:active {
   color: $link-color;
-  text-decoration: $link-decoration;
+  text-decoration: underline;
 }
 
 a:hover {
   color: $link-color-hover;
-  text-decoration: $link-decoration-hover;
+  text-decoration: underline;
   cursor: pointer;
 }
 

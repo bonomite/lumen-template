@@ -1,6 +1,8 @@
 import 'jquery';
 window.$ = window.jQuery;
 
+import 'popper.js'
+
 import 'bootstrap/dist/js/bootstrap';
 
 import TweenMax from 'gsap';
