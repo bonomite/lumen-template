@@ -32,7 +32,7 @@
     "cross-env": "^6.0.3",
     "custom-event-polyfill": "^1.0.7",
     "gsap": "^3.0.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "js-throttle-debounce": "^0.1.1",
     "mobile-detect": "^1.4.4",
     "popper.js": "^1.16.0",
