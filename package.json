@@ -31,7 +31,7 @@
     "browser-sync-webpack-plugin": "^2.2.2",
     "cross-env": "^6.0.3",
     "custom-event-polyfill": "^1.0.7",
-    "gsap": "^3.0.1",
+    "gsap": "^3.6.0",
     "jquery": "^3.4.1",
     "js-throttle-debounce": "^0.1.1",
     "mobile-detect": "^1.4.4",
